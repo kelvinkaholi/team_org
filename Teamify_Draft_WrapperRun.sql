@@ -1,0 +1,47 @@
+EXEC Wrapper_USER
+@RUN = 100
+GO
+
+EXEC Wrapper_TEAM
+@RUN = 100
+GO
+
+EXEC Wrapper_USER_TEAM_ROLE
+@RUN = 100
+GO
+
+EXEC Wrapper_PRIZE
+@RUN = 100
+GO
+
+EXEC Wrapper_USER_TEAM_ROLE_REDEMPTION
+@RUN = 100
+GO
+
+EXEC Wrapper_INSTITUTION
+@RUN = 100
+GO
+
+EXEC Wrapper_GROUP
+@RUN = 1
+GO
+
+EXEC Wrapper_PROJECT
+@RUN = 10
+GO
+
+EXEC Wrapper_TASK
+@RUN = 100
+GO
+
+EXEC Wrapper_PROJECT_TASK
+@RUN = 100
+GO
+
+EXEC Wrapper_USER_TEAM_ROLE_ACTION_TASK
+@RUN = 100
+GO
+
+EXEC Wrapper_Event_Acknowledgment
+@RUN = 100
+GO
